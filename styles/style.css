@@ -54,7 +54,7 @@ a {
 .header {
     display: grid;
     grid-template-columns: 1fr 140px 1fr;
-    padding: 90px 27px;
+    padding: 90px 24px;
     align-items: center;
     font-weight: 400;
     font-size: 18px;
@@ -250,8 +250,10 @@ a {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 17px;
     height: 595px;
-    padding: 40px 24px;
+    margin-bottom: 50px;
+    padding: 40px 20px;
     position: relative;
 }
 
@@ -259,8 +261,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 24px;
-    height: 100%;
+    gap: 28px;
+    height: 90%;
     width: 100%;
 }
 
@@ -282,23 +284,21 @@ a {
 
 .about__title {
     flex-grow: 1;
-    flex-basis: 205px;
+    flex-basis: 240px;
     padding-top: 60px;
 }
 
 .about__text {
     font-size: 20px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 23px;
     max-width: 690px;
-    /*padding-bottom: 24px;*/
 }
 
 /*СЕКЦИЯ FOOTER*/
 .footer {
     display: grid;
     grid-template-columns: 1fr 149px 1fr;
-    margin-top: 40px;
     padding: 90px 50px;
     justify-content: space-between;
     align-items: start;
@@ -311,7 +311,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 65px;
+    height: 66px;
+    white-space: nowrap;
 }
 
 .footer__social-list {
