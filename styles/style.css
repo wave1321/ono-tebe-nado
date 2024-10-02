@@ -29,7 +29,7 @@ a {
 .card_type_picture,
 .card_type_film,
 .card_type_book,
-.cover {    
+.cover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,7 +47,7 @@ a {
 .header__links-list-item_no-bullit,
 .footer__social-list,
 .footer__menu-list {
-    list-style: none;  
+    list-style: none;
 }
 
 /*СЕКЦИЯ HEADER */
@@ -91,7 +91,7 @@ a {
     height: 757px;
     background-image: url("./images/cover.jpg");
     position: relative;
-    color:white;
+    color: white;
 }
 
 .overlay {
@@ -184,7 +184,7 @@ a {
     gap: 25px;
     list-style: none;
     padding-bottom: 30px;
-    color:white;
+    color: white;
 }
 
 .lots__card-list-item {
