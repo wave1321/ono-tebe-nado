@@ -193,10 +193,6 @@ a {
     flex-basis: 334px;
 }
 
-.card__title {
-    text-decoration: underline;
-}
-
 .card-link {
     display: block;
     height: 100%;
@@ -212,6 +208,7 @@ a {
     font-size: 22px;
     font-weight: 700;
     flex-grow: 1;
+    text-decoration: underline;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 51px;
@@ -313,7 +310,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 64px;
+    height: 65px;
 }
 
 .footer__social-list {
