@@ -253,7 +253,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 17px;
-    padding: 40px 20px;
+    padding: 35px 20px;
     position: relative;
 }
 
@@ -279,7 +279,7 @@ a {
 
 .about__logo-image {
     align-self: center;
-    height: 50%;
+    height: 48%;
 }
 
 .about__title {
@@ -319,8 +319,7 @@ a {
     display: flex;
     justify-self: end;
     justify-content: space-between;
-    width: 240px;
-    height: 48px;
+    gap: 48px;
 }
 
 .footer__social-icon {
