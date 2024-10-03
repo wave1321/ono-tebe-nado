@@ -253,7 +253,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 18px;
-    padding: 36px 20px;
+    padding: 38px 20px;
     position: relative;
 }
 
