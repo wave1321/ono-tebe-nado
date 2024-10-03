@@ -252,8 +252,8 @@ a {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 17px;
-    padding: 37px 20px;
+    gap: 18px;
+    padding: 36px 20px;
     position: relative;
 }
 
@@ -262,7 +262,7 @@ a {
     flex-direction: column;
     justify-content: start;
     gap: 24px;
-    height: 90%;
+    height: 91%;
     width: 100%;
 }
 
@@ -285,7 +285,7 @@ a {
 .about__title {
     flex-grow: 1;
     flex-basis: 240px;
-    padding-top: 60px;
+    padding-top: 63px;
 }
 
 .about__text {
@@ -299,7 +299,7 @@ a {
 .footer {
     display: grid;
     grid-template-columns: 1fr 149px 1fr;
-    padding: 88px 50px;
+    padding: 93px 50px;
     justify-content: space-between;
     align-items: start;
     font-weight: 400;
