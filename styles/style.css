@@ -170,7 +170,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 692px;
     padding: 179px 24px;
 }
 
